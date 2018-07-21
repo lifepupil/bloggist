@@ -1,7 +1,7 @@
 {
   "name": "bloggist",
   "version": "1.0.0",
-  "description": "Loudest souce of my digital voice ",
+  "description": "Loudest source of my digital voice ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,14 @@
   "author": "Christian Richard",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
+    "body-parser": "^1.18.3",
+    "brew": "0.0.8",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lifepupil/bloggist.git"
   }
 }
